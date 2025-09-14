@@ -1,10 +1,5 @@
 # 🌍 GeoGPT - AI-Powered Geospatial Analysis Assistant
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://python.org)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-red.svg)](https://streamlit.io)
-[![Google Earth Engine](https://img.shields.io/badge/Google%20Earth%20Engine-Enabled-green.svg)](https://earthengine.google.com)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
 **GeoGPT** is an advanced AI-powered assistant that transforms natural language queries into comprehensive geospatial analysis using Google Earth Engine. It combines cutting-edge AI technologies with professional geospatial tools to make complex Earth observation analysis accessible to everyone.
 
 ## ✨ Key Features
