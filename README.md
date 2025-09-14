@@ -51,8 +51,8 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/Site_Suitability_Analyzer.git
-   cd Site_Suitability_Analyzer
+   git clone https://github.com/ShadesOfCyberak/Geospatial_Analyzer.git
+   cd Geospatial_Analyzer
    ```
 
 2. **Install dependencies**
@@ -76,15 +76,10 @@
 
 **Option 1: Enhanced Web Interface (Recommended)**
 ```bash
-python run_enhanced_app.py
+python run_app.py
 ```
 
-**Option 2: Basic Web Interface**
-```bash
-python run_streamlit.py
-```
-
-**Option 3: Command Line Interface**
+**Option 2: Command Line Interface**
 ```bash
 python geogpt_main.py "Find flood-prone areas in Chennai" "Chennai" "2020-2023"
 ```
