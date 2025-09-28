@@ -808,11 +808,12 @@ def initialize_authentication():
     if not st.session_state.authenticated:
         try:
             # Use credentials from secrets
-            client_id = st.secrets.get("GEE_CLIENT_ID", "108832868460957844084")
-            service_account_email = st.secrets.get("GEE_SERVICE_ACCOUNT", "gee-service@charged-gravity-471921-k5.iam.gserviceaccount.com")
+            client_id = st.secrets.get("GEE_CLIENT_ID", "103654659230836218109")
+            service_account_email = st.secrets.get("GEE_SERVICE_ACCOUNT", "sharan-sentiemtn@earthengine-pipeline.iam.gserviceaccount.com")
+            project = st.secrets.get("GEE_PROJECT", "earthengine-pipeline")
             
             authenticator = GEEAuthenticator(client_id, service_account_email)
-            if authenticator.authenticate():
+            if authenticator.authenticate(project=project):
                 st.session_state.authenticated = True
                 return True
         except Exception as e:

@@ -41,7 +41,7 @@ class GEEAuthenticator:
         try:
             # Try to get project from environment or use default
             if not project:
-                project = os.getenv('GEE_PROJECT', 'charged-gravity-471921-k5')
+                project = os.getenv('GEE_PROJECT', 'earthengine-pipeline')  # Use the correct project
             
             if service_account_key_path and os.path.exists(service_account_key_path):
                 # Use service account authentication
